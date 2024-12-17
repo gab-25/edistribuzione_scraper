@@ -1,0 +1,12 @@
+services:
+  # edistribuzione_scraper:
+  #   build: .
+  #   container_name: edistribuzione_scraper
+  #   restart: unless-stoped
+  
+  splash:
+    image: scrapinghub/splash
+    container_name: splash
+    restart: unless-stopped
+    ports: 
+      - 8050:8050
